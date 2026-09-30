@@ -149,9 +149,33 @@ h2 {
    background-color: var(--primary);
 }
 
+.community-info {
+   padding: 20px;
+}
+
 .community-card-grid {
    display: flex;
    gap: 20px;
-   justify-content: center;
    background-color: var(--light);
+   margin-bottom: 20px;
+}
+
+.community-card-grid div {
+   display: flex;
+   flex-direction: column;
+   width: 33%;
+   background-color: var(--light);
+   padding: 20px;
+   border-left: 2px solid var(--accent);
+}
+
+.site-footer {
+   background-color: var(--dark);
+   color: var(--white);
+
+}
+
+.site-footer a {
+   text-decoration: none;
+   color: var(--white);
 }
