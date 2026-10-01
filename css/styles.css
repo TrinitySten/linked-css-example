@@ -84,6 +84,7 @@ h2 {
 .benefit-list .benefit {
    display: flex;
    flex-direction: column;
+   width: 25%;
 }
 .dark-section {
    background-color: var(--dark);
