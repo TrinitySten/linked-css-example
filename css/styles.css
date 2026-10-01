@@ -188,9 +188,7 @@ h2 {
 }
 .footer-layout {
    display: flex;
-   margin: 0 auto 0 auto;
    width: 33%;
-   gap: 120px;
-   max-width: 800px;
+   spacing: 60px;
 
 }
