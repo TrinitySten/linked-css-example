@@ -184,6 +184,13 @@ h2 {
 }
 
 .site-footer a {
-   text-decoration: none;
    color: var(--white);
+}
+.footer-layout {
+   display: flex;
+   margin: 0 auto 0 auto;
+   width: 33%;
+   gap: 120px;
+   max-width: 800px;
+
 }
