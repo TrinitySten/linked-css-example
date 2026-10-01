@@ -7,40 +7,32 @@
 body {
    background-color: var(--light);
 }
-
 .logo {
    color: var(--primary);
    font-size: 25px;
    font-weight: bold;
 }
-
 #primary-nav {
    margin-top: 10px;
 }
-
 #primary-nav a {
    color: var(--primary);
    font-weight: bold;
    text-decoration: none;
 }
-
 #hero {
    background-color: var(--primary);
    color: var(--white);
 }
-
 #hero .eyebrow {
    color: var(--accent);
 }
-
 #hero h1 {
    width: 650px;
 }
-
 #hero .hero-copy {
    width: 650px;
 }
-
 .button {
    padding: 10px;
    margin-right: 8px;
@@ -49,62 +41,50 @@ body {
    text-decoration: none;
    font-weight: bold;
 }
-
 #about {
    background-color: white;
 }
-
 h2 {
    color: var(--primary)
 }
-
 #about .two-column {
    display: flex;
    gap: 20px;
 }
-
 .feature-layout {
    display: flex;
    gap: 20px;
 }
-
 .card, .featured-card {
    background-color: var(--white);
    padding: 10px;
    margin-top: 10px;
 }
-
 .featured-card {
-   border-top: 5px solid var(--accent);
+   border-top: 2px solid var(--accent);
 }
-
 .button-secondary {
    background-color: var(--white);
    color: var(--primary);
 }
-
 .container {
    max-width: 800px;
    margin: 0 auto 0 auto;
 }
-
 .benefit strong {
    border-top: 1px solid var(--secondary);
    color: var(--secondary);
    font-size: 28px;
    margin-bottom: 10px;
 }
-
 .card-grid, .benefit-list {
    display: flex;
    gap: 20px;
 }
-
 .benefit-list .benefit {
    display: flex;
    flex-direction: column;
 }
-
 .dark-section {
    background-color: var(--dark);
    color: var(--white);
@@ -115,30 +95,24 @@ h2 {
 #work {
    background-color: var(--white);
 }
-
 #work .eyebrow {
    font-weight: bold;
    color: var(--secondary);
 }
-
 #work .section-title {
    color: var(--secondary);
 }
-
 #testimonial {
    text-align: center;
 }
-
 #testimonial blockquote {
    color: var(--primary);
    font-size: 24px;
    font-weight: bold;
 }
-
 #community {
       background-color: var(--white);
 }
-
 #community strong {
    font-size: 24px;
    color: var(--primary);
@@ -148,58 +122,47 @@ h2 {
    gap: 20px;
    color: var(--white);
    background-color: var(--primary);
+   margin-bottom: 20px;
 }
-
 .community-info {
    padding: 20px;
 }
-
 .community-card-grid {
    display: flex;
-   gap: 20px;
-   background-color: var(--light);
    margin-bottom: 20px;
+   gap: 20px;
 }
-
 .community-card-grid div {
+   background-color: var(--light);
    display: flex;
    flex-direction: column;
-   width: 33%;
-   background-color: var(--light);
    padding: 20px;
+   width: 33%;
    border-left: 2px solid var(--accent);
 }
-
+.community-card-grid span {
+   font-weight: bold;
+}
 #contact {
    background-color: var(--secondary);
    color: var(--white);
 }
-
 #contact h2 {
    color: var(--white);
 }
-
 .site-footer {
    background-color: var(--dark);
    color: var(--white);
 }
-
 .site-footer a {
    color: var(--white);
-}
-
-.site-footer hr {
-   max-width: 800px;
-
 }
 .footer-layout {
    display: flex;
    gap: 60px;
 }
-
 .footer-layout div {
    width: 33%;
-
 }
 .copyright {
    border-top: 1px solid var(--gray);
