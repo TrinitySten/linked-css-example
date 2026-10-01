@@ -89,6 +89,7 @@ h2 {
 }
 
 .benefit strong {
+   border-top: 1px solid var(--secondary);
    color: var(--secondary);
    font-size: 28px;
    margin-bottom: 10px;
@@ -186,9 +187,22 @@ h2 {
 .site-footer a {
    color: var(--white);
 }
+
+.site-footer hr {
+   max-width: 800px;
+
+}
 .footer-layout {
    display: flex;
-   width: 33%;
-   spacing: 60px;
+   gap: 60px;
+}
 
+.footer-layout div {
+   width: 33%;
+
+}
+.copyright {
+   border-top: 1px solid var(--gray);
+   padding-top: 20px;
+   margin: 20px auto 0 auto;
 }
